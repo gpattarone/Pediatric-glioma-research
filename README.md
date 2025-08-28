@@ -1,27 +1,28 @@
 #  Pediatric Gliomas Research Pipeline
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Academic](https://img.shields.io/badge/License-Academic%20Use-blue.svg)](#-license)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![R](https://img.shields.io/badge/R-4.0%2B-blue.svg)](https://www.r-project.org/)
 [![Nextflow](https://img.shields.io/badge/Nextflow-21.04%2B-brightgreen.svg)](https://www.nextflow.io/)
+[![Roche/Genentech teal](https://github.com/insightsengineering/teal) - Apache-2.0 License for modular Shiny applications
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 > **Comprehensive genomic analysis pipeline for pediatric glioma research with interactive visualization and therapeutic target identification.**
 
-##  Overview
+## Overview
 
 This repository provides a complete bioinformatics pipeline for analyzing genomic data from pediatric glioma samples. The workflow integrates SRA data processing, variant calling, mutational profiling, and therapeutic pathway analysis with an interactive Shiny application for visualization and interpretation.
 
-###  Key Features
+### Key Features
 
-- ** SRA Data Processing**: Automated download, quality control, and FASTQ conversion
-- ** Variant Analysis**: Comprehensive SNV, CNV, and Indel detection pipeline  
-- ** Mutational Profiling**: Statistical analysis of mutation signatures and patterns
-- ** Interactive Visualization**: Teal-based Shiny application for exploratory analysis
-- ** Therapeutic Insights**: Meta-analysis of treatment targets and precision medicine approaches
-- ** Scalable Workflows**: Nextflow-based parallel processing and reproducible execution
+- **SRA Data Processing**: Automated download, quality control, and FASTQ conversion
+- **Variant Analysis**: Comprehensive SNV, CNV, and Indel detection pipeline  
+- **Mutational Profiling**: Statistical analysis of mutation signatures and patterns
+- **Interactive Visualization**: Teal-based Shiny application for exploratory analysis
+- **Therapeutic Insights**: Meta-analysis of treatment targets and precision medicine approaches
+- **Scalable Workflows**: Nextflow-based parallel processing and reproducible execution
 
-##  Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -53,7 +54,7 @@ nextflow run src/nextflow/biopy_sra.nf --accessions data/sample_accessions.txt
 Rscript src/R/shiny_app/teal-genomics-app.R
 ```
 
-##  Pipeline Architecture
+## Pipeline Architecture
 
 ```mermaid
 graph TD
@@ -74,7 +75,7 @@ graph TD
     style H fill:#fff3e0
 ```
 
-##  Repository Structure
+## Repository Structure
 
 ```
 Pediatric-gliomas_research/
@@ -101,7 +102,7 @@ Pediatric-gliomas_research/
 └── 📂 results/                      # Output directory
 ```
 
-##  Scientific Applications
+## Scientific Applications
 
 ### Research Focus Areas
 - **Precision Medicine**: Personalized treatment strategies based on genetic profiles
@@ -116,7 +117,7 @@ Pediatric-gliomas_research/
 - **Chromatin Regulators**: ATRX, H3F3A, HIST1H3B
 - **Signaling Pathways**: BRAF, PIK3R1, NF1
 
-##  Interactive Visualization
+## Interactive Visualization
 
 ### Teal Application Features
 
@@ -139,7 +140,7 @@ Pediatric-gliomas_research/
 </td>
 <td width="50%">
 
-**📈 Integration Analysis**
+** Integration Analysis**
 - Multi-omics data integration
 - Biomarker discovery workflows
 - Risk stratification models
@@ -198,7 +199,7 @@ We welcome contributions from the genomics and pediatric oncology communities!
 - ** Algorithm Improvements**: Enhanced variant calling and annotation
 - ** Documentation**: Tutorials, examples, and user guides
 
-##  Citation
+## Citation
 
 If you use this pipeline in your research, please cite:
 
@@ -212,19 +213,19 @@ If you use this pipeline in your research, please cite:
 }
 ```
 
-##  Acknowledgments
+## Acknowledgments
 
 - **Data Sources**: NCBI SRA, TCGA, pediatric glioma databases
 - **Tools & Frameworks**: Nextflow, Teal, BioPython, samtools ecosystem
 - **Community**: Pediatric oncology research community and open-source contributors
 
-##  Support & Contact
+## Support & Contact
 
 - ** Issues**: [GitHub Issues](https://github.com/gpattarone/Pediatric-gliomas_research/issues)
 - ** Discussions**: [GitHub Discussions](https://github.com/gpattarone/Pediatric-gliomas_research/discussions)
 - ** Contact**: [Create an issue](https://github.com/gpattarone/Pediatric-gliomas_research/issues/new) for direct contact
 
-##  License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
