@@ -245,7 +245,4 @@ After successful installation:
 1. Read the [Pipeline Overview](pipeline_overview.md)
 2. Follow the [Quick Start Tutorial](quick_start.md)
 3. Review the [Configuration Guide](configuration.md)
-```
 
-
-**¿Ya creaste el installation.md?** El siguiente documento importante será `docs/pipeline_overview.md` para explicar cómo funciona todo el flujo de trabajo.
