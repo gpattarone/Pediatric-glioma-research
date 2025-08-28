@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![R](https://img.shields.io/badge/R-4.0%2B-blue.svg)](https://www.r-project.org/)
 [![Nextflow](https://img.shields.io/badge/Nextflow-21.04%2B-brightgreen.svg)](https://www.nextflow.io/)
-[![Roche/Genentech teal](https://github.com/insightsengineering/teal)
+[![Genentech teal](https://github.com/insightsengineering/teal)](https://github.com/insightsengineering/teal)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 > **Comprehensive genomic analysis pipeline for pediatric glioma research with interactive visualization and therapeutic target identification.**
