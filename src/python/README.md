@@ -48,7 +48,7 @@ pip install pandas
 pip install numpy
 ```
 ### Bioinformatics tools
-# Install via conda
+#### Install via conda
 ```bash
 conda install -c bioconda samtools bcftools fastqc picard
 ```
