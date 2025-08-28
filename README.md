@@ -4,7 +4,6 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![R](https://img.shields.io/badge/R-4.0%2B-blue.svg)](https://www.r-project.org/)
 [![Nextflow](https://img.shields.io/badge/Nextflow-21.04%2B-brightgreen.svg)](https://www.nextflow.io/)
-[![Genentech teal](https://github.com/insightsengineering/teal)](https://github.com/insightsengineering/teal)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 > **Comprehensive genomic analysis pipeline for pediatric glioma research with interactive visualization and therapeutic target identification.**
@@ -213,11 +212,12 @@ If you use this pipeline in your research, please cite:
 }
 ```
 
-## Acknowledgments
+### Third-party Components
 
-- **Data Sources**: NCBI SRA, TCGA, pediatric glioma databases
-- **Tools & Frameworks**: Nextflow, Teal, BioPython, samtools ecosystem
-- **Community**: Pediatric oncology research community and open-source contributors
+- **Teal Framework**: Apache-2.0 License (Roche/Genentech)
+- **R Packages**: Various open-source licenses (see individual packages)  
+- **Python Libraries**: Various open-source licenses (see requirements)
+- **Bioinformatics Tools**: Open-source tools with respective licenses
 
 ## Support & Contact
 
