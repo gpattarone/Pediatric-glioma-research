@@ -104,7 +104,3 @@ process {
 - Update database credentials in `load_meta_analysis.nf`
 - Workflows are designed for pediatric glioma research datasets
 - Check Nextflow version compatibility
-```
-
-
-**¿Ya creaste el README de Nextflow?** Siguiente paso será crear `docs/README.md` para la documentación general del proyecto.
