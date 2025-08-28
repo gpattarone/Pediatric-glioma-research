@@ -304,7 +304,7 @@ output_data <- reactive_values$integrated_results
 write.csv(output_data, "results/shiny_analysis_output.csv")
 ```
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 ### Planned Features
 - **Real-time Data Updates**: Connection to live databases
@@ -319,7 +319,7 @@ write.csv(output_data, "results/shiny_analysis_output.csv")
 - **Testing**: Automated unit tests, CI/CD integration
 - **Documentation**: Interactive tutorials, video guides
 
-## 📞 Support & Contributing
+## Support & Contributing
 
 ### Getting Help
 - **Issues**: Report bugs on GitHub Issues
@@ -338,5 +338,3 @@ write.csv(output_data, "results/shiny_analysis_output.csv")
 - Use meaningful variable names
 - Comment complex logic
 - Test all interactive features
-
-**¡Excelente!** Ahora ya tienes toda la documentación de la aplicación Shiny. ¿Quieres que procedamos a mejorar el **README principal** del repositorio? Ese será la cara visible de todo tu proyecto.
