@@ -80,25 +80,25 @@ graph TD
 Pediatric-gliomas_research/
 ├── 📂 src/                          # Source code
 │   ├── 📂 python/                   # Python analysis scripts
-│   │   ├── sra_analysis.py          # SRA data processing
-│   │   ├── variant_analysis.py      # Variant calling pipeline
-│   │   └── mutational_profile.py    # Mutation signature analysis
+│   │   ├── sra_analysis.py           # SRA data processing
+│   │   ├── variant_analysis.py       # Variant calling pipeline
+│   │   └── mutational_profile.py     # Mutation signature analysis
 │   ├── 📂 nextflow/                 # Nextflow workflows
-│   │   ├── biopy_sra.nf            # Batch SRA processing
-│   │   ├── mutational_profile.nf    # VCF analysis workflow
-│   │   └── load_meta_analysis.nf    # Database integration
+│   │   ├── biopy_sra.nf              # Batch SRA processing
+│   │   ├── mutational_profile.nf     # VCF analysis workflow
+│   │   └── load_meta_analysis.nf     # Database integration
 │   └── 📂 R/                        # R applications
 │       └── 📂 shiny_app/            # Interactive Teal application
 ├── 📂 data/                         # Sample data and schemas
-│   ├── meta_analysis_therapies.csv  # Therapy database
-│   ├── genetic_alterations.json     # Mutation catalog
-│   └── TF_BD.sql                   # Database schemas
+│   ├── meta_analysis_therapies.csv   # Therapy database
+│   ├── genetic_alterations.json      # Mutation catalog
+│   └── TF_BD.sql                     # Database schemas
 ├── 📂 docs/                         # Documentation
-│   ├── installation.md             # Setup guide
-│   ├── pipeline_overview.md        # Architecture details
-│   └── quick_start.md              # Tutorial
-├── 📂 config/                       # Configuration files
-└── 📂 results/                      # Output directory
+│   ├── installation.md               # Setup guide
+│   ├── pipeline_overview.md          # Architecture details
+│   └── quick_start.md                # Tutorial
+├── 📂 config/                        # Configuration files
+└── 📂 results/                       # Output directory
 ```
 
 ## Scientific Applications
